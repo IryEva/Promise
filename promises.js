@@ -34,7 +34,7 @@ function createPost(post) {
     });
 }
 
-const user = {
+const user={
     username :'iry',
     lastactivitytime : '1 feb'
 }
@@ -93,3 +93,4 @@ getPosts();
     deletePost().then(() => {
         getPosts()
     })
+    
